@@ -1,73 +1,21 @@
-"Netflix de anime"
+# Fox Anime
 
-Pantalla principal
-🔥 Top 20 animes
-⭐ Más populares
-📅 Temporada actual
-Buscador
+Fox Anime is a responsive React application that allows users to browse top anime, search titles, view detailed information, watch trailers, and manage a personalized favorites list. It features a clean UI, dark mode, and data fetched from the Jikan API.
 
-Buscar por nombre:
+## Features
 
-Naruto
+- 🔍 Search anime
+- ❤️ Favorites with localStorage
+- 🎬 Anime details
+- ▶️ Embedded trailers
+- 🌙 Dark mode
+- 📱 Responsive design
 
-y mostrar:
+## Tech Stack
 
-Imagen
-Nombre
-Puntaje
-Estado
-Año
-Géneros
-Pantalla de detalle
-
-Cuando hacés click:
-
-One Piece
-
-mostrar:
-
-Portada
-Sinopsis
-Trailer
-Episodios
-Rating
-Géneros
-Estudios
-Personajes principales
-
-Extras para destacar
-❤️ Favoritos (localStorage)
-🌙 Modo oscuro
-🔍 Filtros por género
-📈 Ordenar por puntuación
-📅 Temporada
-⭐ Top 100
-⏳ Loading
-❌ Manejo de errores
-Skeletons de carga
-Responsive
-
-Tecnologías
-React
-JavaScript moderno
-CSS o Tailwind CSS
-React Router
-Fetch API
-Hooks
-Componentes reutilizables
-Context API (para favoritos o tema oscuro)
-
-Arquitectura ideal
-
-anime-app/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── hooks/
-│   ├── context/
-│   ├── assets/
-│   ├── styles/
-│   ├── router/
-│   └── App.jsx
+- React
+- React Router
+- Context API
+- Vite
+- CSS3
+- Jikan API
