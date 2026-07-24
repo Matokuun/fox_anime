@@ -1,0 +1,17 @@
+.title{
+    margin: 2rem 2rem 0rem 2rem;
+}
+
+.no-results{
+    text-align: center;
+}
+
+@media (max-width:600px){
+
+    .title{
+        margin:1.5rem;
+        text-align:center;
+        font-size:1.8rem;
+    }
+
+}

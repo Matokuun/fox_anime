@@ -1,0 +1,30 @@
+.animeGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.animeCardLink{
+    text-decoration: none;
+    width: fit-content;
+    color: inherit;
+}
+
+@media (max-width: 1200px){
+    .animeGrid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 850px){
+    .animeGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 420px){
+    .animeGrid{
+        grid-template-columns: 1fr;
+    }
+}

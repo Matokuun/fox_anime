@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1B1B;
+    align-items: center;
+    gap: .75rem;
+    padding: 1.5rem 0;
+}
+
+.footer-text{
+    font-size: 1rem;
+    color: #a788dd;
+}
+
+@media (max-width:600px){
+
+    .footer{
+        padding:1rem;
+        text-align:center;
+    }
+
+    .footer-text{
+        font-size:.9rem;
+    }
+
+}

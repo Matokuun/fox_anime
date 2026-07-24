@@ -1,0 +1,186 @@
+.anime-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anime-header{
+    display: flex;
+    margin: 2rem;
+    background:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    border-radius:2rem;
+    width: 70%;
+    padding: 2rem;
+}
+
+.anime-description{
+    margin-left: 1.5rem;
+}
+
+.anime-image{
+    width: 400px;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0,0,0,.3);
+}
+
+.anime-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.anime-genres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+}
+
+.anime-genres span{
+    background: #a788dd;
+    color: white;
+    padding: .35rem .8rem;
+    border-radius: 999px;
+    font-size: .9rem;
+}
+
+.anime-item{
+    padding: 0.6rem 0rem;
+    font-size: 1.5rem;
+}
+
+.anime-studios{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.7rem;
+}
+
+.anime-studios span{
+    background:#a788dd;
+    color:white;
+    padding:.35rem .8rem;
+    border-radius:999px;
+    font-size: .9rem;
+}
+
+.anime-description button{
+    margin-top: 2rem;
+    padding: .8rem 1.5rem;
+    border:none;
+    border-radius:.7rem;
+    background:#d62828;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.anime-description button:hover{
+    background:#a4161a;
+    transform:translateY(-2px);
+}
+
+.anime-synopsis{
+    width:70%;
+    margin-bottom:2rem;
+    padding:2rem;
+    border-radius:2rem;
+    background:#f5f5f5;
+}
+
+.anime-synopsis h2{
+    margin-bottom:1rem;
+    font-size:2rem;
+}
+
+.anime-synopsis article{
+    line-height:1.8;
+    font-size:1.2rem;
+    text-align:justify;
+}
+
+.anime-trailer{
+    width:70%;
+    margin-bottom:3rem;
+    padding:2rem;
+    border-radius:2rem;
+    background:#f5f5f5;
+}
+
+.anime-trailer h2{
+    margin-bottom:1rem;
+    font-size:2rem;
+}
+
+.anime-trailer iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+    border-radius:1rem;
+}
+
+body.dark .anime-header,
+body.dark .anime-synopsis,
+body.dark .anime-trailer{
+    background:#1e1e1e;
+    color:white;
+}
+
+@media (max-width: 900px){
+
+    .anime-header{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .anime-description{
+        margin-left: 0;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .anime-title{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .anime-image{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .anime-item{
+        font-size: 1.2rem;
+    }
+
+    .anime-synopsis,
+    .anime-trailer{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .anime-header{
+        padding: 1.5rem;
+    }
+
+    .anime-title{
+        font-size: 2rem;
+    }
+
+    .anime-item{
+        font-size: 1rem;
+    }
+
+    .anime-synopsis{
+        padding: 1.5rem;
+    }
+
+    .anime-trailer{
+        padding: 1.5rem;
+    }
+
+}
