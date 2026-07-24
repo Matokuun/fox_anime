@@ -19,3 +19,7 @@ Fox Anime is a responsive React application that allows users to browse top anim
 - Vite
 - CSS3
 - Jikan API
+
+## Demo online
+
+https://fox-anime.vercel.app/

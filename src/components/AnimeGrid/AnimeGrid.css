@@ -7,13 +7,13 @@
 
 .animeCardLink{
     text-decoration: none;
-    width: fit-content;
+    width: 100%;
     color: inherit;
 }
 
 @media (max-width: 1200px){
     .animeGrid{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width: 420px){
+@media (max-width: 500px){
     .animeGrid{
         grid-template-columns: 1fr;
     }
